@@ -23,7 +23,7 @@
  "tilesets":[
         {
          "firstgid":1,
-         "source":"https://raw.githubusercontent.com/qq2413273056/scoop/main/WX20210830-171605%402x.tsx"
+         "source":"../main/WX20210830-171605@2x.tsx"
         }],
  "tilewidth":32,
  "type":"map",
