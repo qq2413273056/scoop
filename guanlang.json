@@ -7,6 +7,12 @@
          "image":"background.jpg",
          "name":"background",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"pixiType",
+                 "type":"string",
+                 "value":"Sprite"
+                }],
          "type":"imagelayer",
          "visible":true,
          "x":0,
@@ -20,6 +26,12 @@
          "offsetx":-1.44927536231887,
          "offsety":0,
          "opacity":1,
+         "properties":[
+                {
+                 "name":"pixiType",
+                 "type":"string",
+                 "value":"CompositeTilemap"
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":26,
