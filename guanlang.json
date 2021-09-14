@@ -32,6 +32,12 @@
          "id":8,
          "name":"pool_left",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"pixiType",
+                 "type":"string",
+                 "value":"AnimatedSprite"
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":26,
