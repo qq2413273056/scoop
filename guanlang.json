@@ -66,6 +66,12 @@
                  "height":50,
                  "id":3,
                  "name":"",
+                 "properties":[
+                        {
+                         "name":"fn",
+                         "type":"string",
+                         "value":"function ss(ob) {\n           alert(ob.target.x)     }"
+                        }],
                  "rotation":0,
                  "type":"",
                  "visible":true,
