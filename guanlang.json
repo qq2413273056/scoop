@@ -41,6 +41,11 @@
                          "name":"initFn",
                          "type":"string",
                          "value":"function ss(currentOb) {\n            currentOb.x = 100;\n        }"
+                        }, 
+                        {
+                         "name":"webSocketFn",
+                         "type":"string",
+                         "value":"function ss(ws) {\n             ws.subscribe(\"\/topic\/news\", (message: Message) => {\n      console.log(message)\n    })\n }"
                         }],
                  "rotation":0.0710104503349862,
                  "type":"",
