@@ -38,7 +38,7 @@
                  "name":"",
                  "properties":[
                         {
-                         "name":"fn",
+                         "name":"initFn",
                          "type":"string",
                          "value":"function ss(currentOb) {\n            currentOb.x = 100;\n        }"
                         }],
@@ -68,7 +68,7 @@
                  "name":"",
                  "properties":[
                         {
-                         "name":"fn",
+                         "name":"initFn",
                          "type":"string",
                          "value":"function ss(currentOb) {\n           alert(currentOb.x)     }"
                         }],
