@@ -45,7 +45,7 @@
                         {
                          "name":"webSocketFn",
                          "type":"string",
-                         "value":"function ss(ws) {\n             ws.subscribe(\"\/topic\/news\", (message: Message) => {\n      console.log(message);\n    })\n }"
+                         "value":"function ss(ws) {\n             ws.subscribe(\"\/topic\/news\", function(message) => {\n      console.log(message);\n    })\n }"
                         }],
                  "rotation":0.0710104503349862,
                  "type":"",
