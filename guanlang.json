@@ -40,7 +40,7 @@
                         {
                          "name":"fn",
                          "type":"string",
-                         "value":"function ss(ob) {\n            ob.x = 100;\n        }"
+                         "value":"function ss(currentOb) {\n            currentOb.x = 100;\n        }"
                         }],
                  "rotation":0.0710104503349862,
                  "type":"",
@@ -70,7 +70,7 @@
                         {
                          "name":"fn",
                          "type":"string",
-                         "value":"function ss(ob) {\n           alert(ob.target.x)     }"
+                         "value":"function ss(currentOb) {\n           alert(currentOb.x)     }"
                         }],
                  "rotation":0,
                  "type":"",
