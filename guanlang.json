@@ -75,7 +75,7 @@
                         {
                          "name":"initFn",
                          "type":"string",
-                         "value":"function ss(currentOb) {\n           alert(currentOb.x)     }"
+                         "value":"function ss(currentOb) {\n           console.log(currentOb.x)     \n}"
                         }],
                  "rotation":0,
                  "type":"",
