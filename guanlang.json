@@ -40,7 +40,7 @@
                         {
                          "name":"initFn",
                          "type":"string",
-                         "value":"function ss(currentOb) {\n            currentOb.x = 100;\n        }"
+                         "value":"function ss(currentOb) {\n            console.log(\"call initFn \"+ currentOb.id);\n        }"
                         }, 
                         {
                          "name":"webSocketFn",
