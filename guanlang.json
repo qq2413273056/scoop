@@ -45,7 +45,7 @@
                         {
                          "name":"webSocketFn",
                          "type":"string",
-                         "value":"function ss(currentOb,ws) {\n             ws.subscribe(\"\/topic\/news\", function(message) {\n    \t  console.log(message);\n\t  console.log(currentOb);\n    })\n }"
+                         "value":"function ss(currentOb,ws) {\n             ws.subscribe(\"\/topic\/news\", function(message) {\n    \t  console.log(message);\n\t  console.log(currentOb);\n\tif(message.body.status==\"CLOSE\"){\n\t\tcurrentOb.y +=10;\n\t}\n\tif(message.body.status==\"CLOSE\"){\n\t\tcurrentOb.y -=10;\n\t}\n    })\n }"
                         }],
                  "rotation":0.0710104503349862,
                  "type":"",
@@ -59,12 +59,12 @@
                  "height":50,
                  "id":2,
                  "name":"",
-                 "rotation":358.759130224869,
+                 "rotation":357.555958996561,
                  "type":"",
                  "visible":true,
                  "width":50,
-                 "x":100.547251988799,
-                 "y":50.535526520922
+                 "x":101.088832019316,
+                 "y":51.04334935832
                 }, 
                 {
                  "gid":11,
